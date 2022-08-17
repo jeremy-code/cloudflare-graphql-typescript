@@ -4,6 +4,8 @@
 
 `cloudflare-graphql-typescript` is a template for creating a [GraphQL](https://graphql.org) server with serverless [Cloudflare workers](https://workers.cloudflare.com/), written in TypeScript. It uses the [apollo-server-cloudflare](https://www.npmjs.com/package/apollo-server-cloudflare) library to create the server and the [PokeAPI](https://pokeapi.co/) as a REST API source. It also uses Cloudflare KV to cache and store the data from requests.
 
+A demo of the server is available [here](https://pokemon-graphql-api.jeremynguyen.workers.dev/___graphql).
+
 ## Table of Contents
 
 - [Installation](#installation)
