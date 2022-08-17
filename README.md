@@ -2,7 +2,7 @@
 
 ![GitHub Actions](https://github.com/jeremynguyencs/cloudflare-graphql-typescript/actions/workflows/main.yml/badge.svg)
 
-`cloudflare-graphql-typescript` is a template for creating a [GraphQL](https://graphql.org) server with serverless [Cloudflare workers](https://workers.cloudflare.com/), written in TypeScript. It uses the [apollo-server-cloudflare](https://www.npmjs.com/package/apollo-server-cloudflare) library to create the server and the [PokeAPI](https://pokeapi.co/) as a REST API source.
+`cloudflare-graphql-typescript` is a template for creating a [GraphQL](https://graphql.org) server with serverless [Cloudflare workers](https://workers.cloudflare.com/), written in TypeScript. It uses the [apollo-server-cloudflare](https://www.npmjs.com/package/apollo-server-cloudflare) library to create the server and the [PokeAPI](https://pokeapi.co/) as a REST API source. It also uses Cloudflare KV to cache and store the data from requests.
 
 ## Table of Contents
 
