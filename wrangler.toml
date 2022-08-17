@@ -1,0 +1,9 @@
+name = "pokemon-graphql-api"
+main = "./src/index.ts"
+account_id = "7dc0feb1df1ba5d6a9c99e160d1c8f57"
+compatibility_date = "2022-08-17"
+node_compat = true
+
+kv_namespaces =[
+  { binding = "WORKERS_GRAPHQL_CACHE", id = "f72e6726fd1940feaf8655c75149d8c8", preview_id = "98d1e41b710d48da8ee51d1ae802bff7" }
+]

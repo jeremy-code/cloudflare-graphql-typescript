@@ -1,0 +1,25 @@
+{
+	"include": ["src"],
+	"exclude": ["node_modules", "dist", "test"],
+	"compilerOptions": {
+		"incremental": true,
+		"target": "es2021",
+		"lib": ["es2021"],
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"module": "es2022",
+		"moduleResolution": "node",
+		"types": ["@cloudflare/workers-types"],
+		"resolveJsonModule": true,
+		"allowJs": true,
+		"checkJs": false,
+		"noEmit": true,
+		"isolatedModules": true,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"strictPropertyInitialization": false,
+		"skipLibCheck": true
+	}
+}
